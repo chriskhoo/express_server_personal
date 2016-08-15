@@ -1,3 +1,10 @@
 language: node_js
 node_js:
 - node
+deploy:
+  provider: heroku
+  api_key:
+    secure: uAoyQ5dkbiutApGBC43FIon/JjsnjJIDck8IprVi5FwiCS2EZcp07TYiZSXtbyZ/Z+PzklS7CR1zbHhHKlR4BHyM5ciV37v14lfOfo8TbHzWoD1NQBFU+oEZHZ5iZemYczGc2z7dXoJ4NWcQCw4VcvJVC/HadPt3330UXToUCPxnI9s0mgRMAajQFAAayfOROnj4sWTOQwBfuFyMUojNSn4Su0H1BW7xTg9jwnsU+/Jzy22NAZ8kHDEJ3FHqlcqd0mG2FxNx2ijUUgqmlr6KfVYE/outNyK8HXcIsOF27ZkhXpddVK/Fon5H6YUQtmLM9D7/Leg5qzsZ9xNm60MVQzrcvmEWD2S23LAgMiQhb9WrJ6QFSIgt/eVg3RF25HX+nNeVQm99M0xDHdkOB3Yw7BeEdG2vnquI2fFC+b5MzT72/MRltSVlUQWrahQCwE9VnpWdXhBvNpY1G9aCPZqTNeC5RFGBwqMg0LUFne5uOtpb+YzXWFMS3wmcKKh/R2Oh7p5SJf8QJR5rADxzNfXZxoBx8IP9RsGQd3gvuJpII46cIuZoGz/lHYy8NXP4x1+LMvKLuLMBmXUmfjoCrOG7hD2+G+khnbIfMaewoN8ij47WvBzTI3dbBGQooFVZlKFi65LtzwFZuQpBLMQE+KMCR3uRHxWNUHUzwU0zkU9M3eI=
+  app: fierce-escarpment-31768
+  on:
+    repo: chriskhoo/express_server_personal
